@@ -1,0 +1,5 @@
+first_input = input().split()
+n,k = int(first_input[0]),int(first_input[1])
+second_input = list(map(int,input().split()))
+second_input.sort(reverse=True)
+print(second_input[k-1])
