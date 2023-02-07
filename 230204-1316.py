@@ -14,4 +14,4 @@ for i in str:
             successed = True
     if successed : result += 1
     str_index = []
-print(result)
+print(result)`
